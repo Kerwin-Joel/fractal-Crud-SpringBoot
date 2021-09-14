@@ -17,6 +17,15 @@ public class Product {
     private String category;
     private double unitPrice;
     private String status;
+    private double quantity;
+
+    public double getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(double quantity) {
+        this.quantity = quantity;
+    }
 
     public String getId() {
         return id;
