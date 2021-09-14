@@ -11,7 +11,7 @@ BackEnd - URL of the service : https://fract-crud.herokuapp.com/
 EndPoints and examples :
 https://documenter.getpostman.com/view/12948860/U16nMQwj documentation with Postmant
 
-FrontEnd : https://silly-bhabha-8022e5.netlify.app/
+FrontEnd : https://crudfractal.netlify.app/
 
 Database : 
   https://cloud.mongodb.com/v2/613d64e8b560fe130ab0e7dd#activity to see the data
