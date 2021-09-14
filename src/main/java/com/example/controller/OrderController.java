@@ -15,7 +15,7 @@ public class OrderController {
     @Autowired
     OrderService orderService;
 
-
+    @CrossOrigin("*")
     @PostMapping("/create")
     public Order createOrder(@RequestBody Order order){
         return orderService.createOrder(order);
