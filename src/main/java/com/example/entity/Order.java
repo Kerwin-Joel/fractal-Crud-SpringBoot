@@ -26,15 +26,15 @@ public class Order {
     private String status;
     private String date;
     private String customer;
-//    private double quantity;
-//
-//    public double getQuantity() {
-//        return quantity;
-//    }
-//
-//    public void setQuantity(double quantity) {
-//        this.quantity = quantity;
-//    }
+    private double quantity;
+
+    public double getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(double quantity) {
+        this.quantity = quantity;
+    }
 
     @Transient
     private double taxesAmount;//subtotal de la suma de los precios de la lista de los productos
